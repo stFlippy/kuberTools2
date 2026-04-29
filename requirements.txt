@@ -1,0 +1,6 @@
+
+// for routing
+npm install react-router-dom
+
+// for tanstack
+npm install @tanstack/react-query
