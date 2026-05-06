@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom"
 import Layout from "../layout/layout"
-import summary from "../modules/summary"
+import Summary from "../modules/Summary"
 
 export const router = createBrowserRouter([
   {
@@ -8,13 +8,13 @@ export const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        path: "pods",
-        // element: <PodsPage />,
+        path: "Clusters info",
+         element: <Summary />,
       },
-      {
-        path: "deployments",
-        // element: <DeploymentsPage />,
-      },
+      // {
+      //   path: "deployments",
+      //   // element: <DeploymentsPage />,
+      // },
     ],
   },
 ]);

@@ -1,0 +1,37 @@
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  color: white;
+}
+
+.logo {
+  display: flex;
+  font-weight: bold;
+  font-size: 40px;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.img {
+  height: 10vh;
+  width: auto;
+  display: block;
+}
+
+.title {
+  font-size: 4vh;
+}
